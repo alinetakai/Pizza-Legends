@@ -113,8 +113,8 @@ class OverworldMap {
 window.OverworldMaps = {
   DemoRoom: {
     id: "DemoRoom",
-    lowerSrc: "/images/maps/DemoLower.png",
-    upperSrc: "/images/maps/DemoUpper.png",
+    lowerSrc: "images/maps/DemoLower.png",
+    upperSrc: "images/maps/DemoUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -126,7 +126,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(10),
         y: utils.withGrid(8),
-        src: "/images/characters/people/npc1.png",
+        src: "images/characters/people/npc1.png",
         behaviorLoop: [
           { type: "walk", direction: "left", },
           { type: "walk", direction: "down", },
@@ -157,7 +157,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(4),
         y: utils.withGrid(8),
-        src: "/images/characters/people/npc1.png",
+        src: "images/characters/people/npc1.png",
         behaviorLoop: [
           { type: "stand", direction: "left", time: 500, },
           { type: "stand", direction: "down", time: 500, },
@@ -173,7 +173,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(8),
         y: utils.withGrid(5),
-        src: "/images/characters/people/erio.png",
+        src: "images/characters/people/erio.png",
         talking: [
           {
             events: [
@@ -235,8 +235,8 @@ window.OverworldMaps = {
   },
   Kitchen: {
     id: "Kitchen",
-    lowerSrc: "/images/maps/KitchenLower.png",
-    upperSrc: "/images/maps/KitchenUpper.png",
+    lowerSrc: "images/maps/KitchenLower.png",
+    upperSrc: "images/maps/KitchenUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -249,7 +249,7 @@ window.OverworldMaps = {
         x: utils.withGrid(9),
         y: utils.withGrid(5),
         direction: "up",
-        src: "/images/characters/people/npc8.png",
+        src: "images/characters/people/npc8.png",
         talking: [
           {
             events: [
@@ -262,7 +262,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(3),
         y: utils.withGrid(6),
-        src: "/images/characters/people/npc3.png",
+        src: "images/characters/people/npc3.png",
         talking: [
           {
             events: [
@@ -370,8 +370,8 @@ window.OverworldMaps = {
   },
   Street: {
     id: "Street",
-    lowerSrc: "/images/maps/StreetLower.png",
-    upperSrc: "/images/maps/StreetUpper.png",
+    lowerSrc: "images/maps/StreetLower.png",
+    upperSrc: "images/maps/StreetUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -383,7 +383,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(9),
         y: utils.withGrid(11),
-        src: "/images/characters/people/npc2.png",
+        src: "images/characters/people/npc2.png",
         behaviorLoop: [
           { type: "stand", direction: "right", time: 1400, },
           { type: "stand", direction: "up", time: 900, },
@@ -400,7 +400,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(31),
         y: utils.withGrid(12),
-        src: "/images/characters/people/npc7.png",
+        src: "images/characters/people/npc7.png",
         behaviorLoop: [
           { type: "stand", direction: "up", time: 400, },
           { type: "stand", direction: "left", time: 800, },
@@ -420,7 +420,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(22),
         y: utils.withGrid(10),
-        src: "/images/characters/people/npc8.png",
+        src: "images/characters/people/npc8.png",
         talking: [
           {
             required: ["streetBattle"],
@@ -498,8 +498,8 @@ window.OverworldMaps = {
   },
   Shop: {
     id: "Shop",
-    lowerSrc: "/images/maps/PizzaShopLower.png",
-    upperSrc: "/images/maps/PizzaShopUpper.png",
+    lowerSrc: "images/maps/PizzaShopLower.png",
+    upperSrc: "images/maps/PizzaShopUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -511,7 +511,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(6),
         y: utils.withGrid(5),
-        src: "/images/characters/people/erio.png",
+        src: "images/characters/people/erio.png",
         talking: [
           {
             events: [
@@ -524,7 +524,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(5),
         y: utils.withGrid(9),
-        src: "/images/characters/people/npc2.png",
+        src: "images/characters/people/npc2.png",
         behaviorLoop: [
           { type: "stand", direction: "left", time: 400, },
         ],
@@ -623,8 +623,8 @@ window.OverworldMaps = {
   },
   GreenKitchen: {
     id: "GreenKitchen",
-    lowerSrc: "/images/maps/GreenKitchenLower.png",
-    upperSrc: "/images/maps/GreenKitchenUpper.png",
+    lowerSrc: "images/maps/GreenKitchenLower.png",
+    upperSrc: "images/maps/GreenKitchenUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -636,7 +636,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(8),
         y: utils.withGrid(8),
-        src: "/images/characters/people/npc2.png",
+        src: "images/characters/people/npc2.png",
         behaviorLoop: [
           { type: "stand", direction: "up", time: 400, },
           { type: "stand", direction: "left", time: 800, },
@@ -655,7 +655,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(1),
         y: utils.withGrid(8),
-        src: "/images/characters/people/npc3.png",
+        src: "images/characters/people/npc3.png",
         behaviorLoop: [
           { type: "stand", direction: "up", time: 900, },
           { type: "walk", direction: "down"},
@@ -680,7 +680,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(3),
         y: utils.withGrid(5),
-        src: "/images/characters/people/secondBoss.png",
+        src: "images/characters/people/secondBoss.png",
         talking: [
           {
             required: ["chefRootie"],
@@ -761,8 +761,8 @@ window.OverworldMaps = {
   },
   StreetNorth: {
     id: "StreetNorth",
-    lowerSrc: "/images/maps/StreetNorthLower.png",
-    upperSrc: "/images/maps/StreetNorthUpper.png",
+    lowerSrc: "images/maps/StreetNorthLower.png",
+    upperSrc: "images/maps/StreetNorthUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -774,7 +774,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(9),
         y: utils.withGrid(6),
-        src: "/images/characters/people/npc1.png",
+        src: "images/characters/people/npc1.png",
         behaviorLoop: [
           { type: "walk", direction: "left", },
           { type: "walk", direction: "down", },
@@ -795,7 +795,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(4),
         y: utils.withGrid(12),
-        src: "/images/characters/people/npc3.png",
+        src: "images/characters/people/npc3.png",
         behaviorLoop: [
           { type: "stand", direction: "up", time: 400, },
           { type: "stand", direction: "left", time: 800, },
@@ -815,7 +815,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(12),
         y: utils.withGrid(9),
-        src: "/images/characters/people/npc8.png",
+        src: "images/characters/people/npc8.png",
         talking: [
           {
             required: ["streetNorthBattle"],
@@ -926,8 +926,8 @@ window.OverworldMaps = {
   },
   DiningRoom: {
     id: "DiningRoom",
-    lowerSrc: "/images/maps/DiningRoomLower.png",
-    upperSrc: "/images/maps/DiningRoomUpper.png",
+    lowerSrc: "images/maps/DiningRoomLower.png",
+    upperSrc: "images/maps/DiningRoomUpper.png",
     configObjects: {
       hero: {
         type: "Person",
@@ -939,7 +939,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(12),
         y: utils.withGrid(8),
-        src: "/images/characters/people/npc8.png",
+        src: "images/characters/people/npc8.png",
         talking: [
           {
             required: ["diningRoomBattle"],
@@ -960,7 +960,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(9),
         y: utils.withGrid(5),
-        src: "/images/characters/people/npc4.png",
+        src: "images/characters/people/npc4.png",
         talking: [
           {
             events: [
@@ -973,7 +973,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(2),
         y: utils.withGrid(8),
-        src: "/images/characters/people/npc7.png",
+        src: "images/characters/people/npc7.png",
         behaviorLoop: [
           { type: "stand", direction: "right", time: 800, },
           { type: "stand", direction: "down", time: 700, },
@@ -991,7 +991,7 @@ window.OverworldMaps = {
         type: "Person",
         x: utils.withGrid(8),
         y: utils.withGrid(9),
-        src: "/images/characters/people/npc1.png",
+        src: "images/characters/people/npc1.png",
         behaviorLoop: [
           { type: "stand", direction: "right", time: 1200, },
           { type: "stand", direction: "down", time: 900, },
